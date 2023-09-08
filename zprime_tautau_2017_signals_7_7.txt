@@ -1,0 +1,171 @@
+#========= VBF DM
+
+imax 1  number of channels
+jmax 6  number of backgrounds
+kmax 155 number of nuisance parameters (sources of systematic uncertainties)
+
+# we have just one channel and will use some dummy data
+bin tautau
+observation	0
+
+bin            tautau	tautau	tautau	tautau	tautau	tautau	tautau 
+process        SIG      W+j     Z+j	ttb	VV	qcd	singlet 
+process        0        1       2	3	4	5	6
+rate           1.5308	0.015	0.611	0.0	0.036	0.066	0.0
+
+lumi    lnN    1.028   1.028   1.028	1.028	1.028	-       1.028
+ISR20	lnN    -	-	-	-	-	-	-
+ISR21	lnN    -	-	-	-	-	-	-
+ISR22	lnN    -	-	-	-	-	-	-
+ISR23	lnN    -	-	-	-	-	-	-
+ISR24	lnN    -	-	-	-	-	-	-
+ISR25	lnN    -	-	-	-	-	-	-
+ISR26	lnN    -	-	-	-	-	-	-
+PDF00	lnN    1.065	-	-	-	-	-	-
+PDF01	lnN    -	1.035	-	-	-	-	-
+PDF02	lnN    -	-	1.035	-	-	-	-
+PDF03	lnN    -	-	-	1.035	-	-	-
+PDF04	lnN    -	-	-	-	1.035	-	-
+PDF05	lnN    -	-	-	-	-	-	-
+PDF06	lnN    -	-	-	-	-	-	1.028
+STMC20	lnN    -	-	-	-	-	-	-
+STMC21	lnN    -	-	-	-	-	-	-
+STMC22	lnN    -	-	-	-	-	-	-
+STMC23	lnN    -	-	-	-	-	-	-
+STMC24	lnN    -	-	-	-	-       -	-
+STMC25	lnN    -	-	-	-	-	-	-
+STMC26	lnN    -	-	-	-	-	-	-
+STDA20	lnN    -	-	-	-	-	-	-
+STDA21	lnN    -	-	-	-	-	-	-
+STDA22	lnN    -	-	-	-	-	-	-
+STDA23	lnN    -	-	-	-	-	-	-
+STDA24	lnN    -	-	-	-	-	-	-
+STDA25	lnN    -	-	-	-	-	-	-
+STDA26	lnN    -	-	-	-	-	-	-
+Trig20	lnN    1.03	1.03	1.03	1.03	1.03	-	1.03
+Trig21	lnN    -	-	-	-	-	-	-
+Trig22	lnN    -	-	-	-	-	-	-
+Trig23	lnN    -	-	-	-	-	-	-
+Trig24	lnN    -	-	-	-	-	-	-
+Trig25	lnN    -	-	-	-	-	-	-
+Trig26	lnN    -	-	-	-	-	-	-
+MuID20	lnN    -	-	-	-	-	-	-
+MuID21	lnN    -	-	-	-	-	-	-
+MuID22	lnN    -	-	-	-	-	-	-
+MuID23	lnN    -	-	-	-	-	-	-
+MuID24	lnN    -	-	-	-	-	-	-
+MuID25	lnN    -	-	-	-	-	-	-
+MuID26	lnN    -	-	-	-	-	-	-
+ElID20	lnN    -	-	-	-	-	-	-
+ElID21	lnN    -	-	-	-	-	-	-
+ElID22	lnN    -	-	-	-	-	-	-
+ElID23	lnN    -	-	-	-	-	-	-
+ElID24	lnN    -	-	-	-	-	-	-
+ElID25	lnN    -	-	-	-	-	-	-
+ElID26	lnN    -	-	-	-	-	-	-
+TaID20  lnN    1.01     -       -       -       -       -       -
+TaID21  lnN    -        1.01    -       -       -       -       -
+TaID22  lnN    -        -       1.01    -       -       -       -
+TaID23  lnN    -        -       -       1.01    -       -       -
+TaID24  lnN    -        -       -       -       1.01    -       -
+TaID25  lnN    -        -       -       -       -       -       -
+TaID26  lnN    -        -       -       -       -       -       1.01
+bID20	lnN    1.01	-	-	-	-	-	-
+bID21	lnN    -	1.01	1.01	-	-	-	-
+bID22	lnN    -	-	-	-	-	-	-
+bID23	lnN    -	-	-	1.1	-	-	1.1
+bID24	lnN    -	-	-	-	1.01	-	-
+bID25	lnN    -	-	-	-	-	-	-
+bID26	lnN    -	-	-	-	-	-	-
+EES30	lnN    -	-	-	-	-	-	-
+EES21	lnN    -	-	-	-	-	-	-
+EES22	lnN    -	-	-	-	-	-	-
+EES23	lnN    -	-	-	-	-	-	-
+EES24	lnN    -	-	-	-	-	-	-
+EES25	lnN    -	-	-	-	-	-	-
+EES26	lnN    -	-	-	-	-	-	-
+MMS20	lnN    -	-	-	-	-	-	-
+MMS21	lnN    -	-	-	-	-	-	-
+MMS22	lnN    -	-	-	-	-	-	-
+MMS23	lnN    -	-	-	-	-	-	-
+MMS24	lnN    -	-	-	-	-	-	-
+MMS25	lnN    -	-	-	-	-	-	-
+MMS26	lnN    -	-	-	-	-	-	-
+TES20	lnN    1.05	-	-	-	-	-	-
+TES21	lnN    -	-	-	-	-	-	-
+TES22	lnN    -	-	-	-	-	-	-
+TES23	lnN    -	-	-	-	-	-	-
+TES24	lnN    -	-	-	-	-	-	-
+TES25	lnN    -	-	-	-	-	-	-
+TES26	lnN    -	-	-	-	-	-	-
+JES20	lnN    -	-	-	-	-	-	-
+JES21	lnN    -	-	-	-	-	-	-
+JES22	lnN    -	-	-	-	-	-	-
+JES23	lnN    -	-	-	-	-	-	-
+JES24	lnN    -	-	-	-	-	-	-
+JES25	lnN    -	-	-	-	-	-	-
+JES26	lnN    -	-	-	-	-	-	-
+Close20	lnN    -	-	-	-	-	-	-
+Close21	lnN    -	-	-	-	-	-	-
+Close22	lnN    -	-	-	-	-	-	-
+Close23	lnN    -	-	-	-	-	-	-
+Close24	lnN    -	-	-	-	-	-	-
+Close25	lnN    -	-	-	-	-	1.277	-
+Close26	lnN    -	-	-	-	-	-	-
+ttbar20	lnN    -	-	-	-	-	-	-
+ttbar21	lnN    -	-	-	-	-	-	-
+ttbar22	lnN    -	-	-	-	-	-	-
+ttbar23	lnN    -	-	-	-	-	-	-
+ttbar24	lnN    -	-	-	-	-	-	-
+ttbar25	lnN    -	-	-	-	-	-	-
+ttbar26	lnN    -	-	-	-	-	-	-
+dy20    lnN    -        -       -       -       -       -       -
+dy21    lnN    -        -       -       -       -       -       -
+dy22 	lnN    -        -       -       -       -       -       -
+dy23 	lnN    -        -       -       -       -       -       -
+dy24 	lnN    -        -       -       -       -       -       -
+dy25	lnN    -	-	-	-	-	-	-
+dy26 	lnN    -        -       -       -       -       -       -
+wj20 	lnN    -        -       -       -       -       -       -
+wj21 	lnN    -        -       -       -       -       -       -
+wj22 	lnN    -        -       -       -       -       -       -
+wj23 	lnN    -        -       -       -       -       -       -
+wj24 	lnN    -        -       -       -       -       -       -
+wj25	lnN    -	1.04	0.945	-	-	-	-
+wj26 	lnN    -        -       -       -       -       -       -
+tt20 	lnN    -        -       -       -       -       -       -
+tt21 	lnN    -        -       -       -       -       -       -
+tt22 	lnN    -        -       -       -       -       -       -
+tt23 	lnN    -        -       -       -       -       -       -
+tt24 	lnN    -        -       -       -       -       -       -
+tt25	lnN    -	-	-	1.69	-	-	-
+tt26 	lnN    -        -       -       -       -       -       -
+st20 	lnN    -        -       -       -       -       -       -
+st21 	lnN    -        -       -       -       -       -       -
+st22 	lnN    -        -       -       -       -       -       -
+st23 	lnN    -        -       -       -       -       -       -
+st24 	lnN    -        -       -       -       -       -       -
+st25	lnN    -	-	-	-	-	-	-
+st26 	lnN    -        -       -       -       -       -       -
+qcd20 	lnN    -        -       -       -       -       -       -
+qcd21 	lnN    -        -       -       -       -       -       -
+qcd22 	lnN    -        -       -       -       -       -       -
+qcd23 	lnN    -        -       -       -       -       -       -
+qcd24 	lnN    -        -       -       -       -       -       -
+qcd25	lnN    -	-	-	-	-	1.8	-
+qcd26 	lnN    -        -       -       -       -       -       -
+vv20 	lnN    -        -       -       -       -       -       -
+vv21 	lnN    -        -       -       -       -       -       -
+vv22 	lnN    -        -       -       -       -       -       -
+vv23 	lnN    -        -       -       -       -       -       -
+vv24 	lnN    -        -       -       -       -       -       -
+vv25	lnN    -	-	-	-	1.28	-	-
+vv26 	lnN    -        -       -       -       -       -       -
+sgn20 	lnN    -        -       -       -       -       -       -
+sgn21 	lnN    -        -       -       -       -       -       -
+sgn22 	lnN    -        -       -       -       -       -       -
+sgn23 	lnN    -        -       -       -       -       -       -
+sgn24 	lnN    -        -       -       -       -       -       -
+sgn25	lnN    1.02	-	-	-	-	-	-
+sgn26 	lnN    -        -       -       -       -       -       -
+#=============================================
